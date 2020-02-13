@@ -1,0 +1,28 @@
+{
+  "name": "company-review-lab",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "start:dev": "nodemon src/index.js",
+    "test": "jest --watchAll",
+    "test:coverage": "jest --coverage --watchAll=false"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "jest": "^25.1.0",
+    "mongodb-memory-server": "^6.2.4",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "mongoose": "^5.8.12"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}
